@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Template</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- =====================================================
+     NAVIGATION
+     Change the menu labels and links only.
+     ===================================================== -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#home" class="logo">
+        <img src="assets/logo.png" alt="Logo">
+        <span>YOUR SITE</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#home" class="nav-link active">Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a href="#about" class="nav-link">
+            About <i class="fas fa-chevron-down"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Sub Page 1</a></li>
+            <li><a href="#">Sub Page 2</a></li>
+            <li><a href="#">Sub Page 3</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a href="#team" class="nav-link">
+            Team <i class="fas fa-chevron-down"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Team Page 1</a></li>
+            <li><a href="#">Team Page 2</a></li>
+            <li><a href="#">Team Page 3</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#sections" class="nav-link">Sections</a>
+        </li>
+
+        <li class="nav-item registration-dropdown">
+          <a href="#registration" class="nav-link registration-link">
+            Registration <i class="fas fa-chevron-down"></i>
+          </a>
+          <ul class="dropdown-menu registration-menu">
+            <li>
+              <a href="#" class="registration-item">
+                <i class="fas fa-user"></i> Option One
+              </a>
+            </li>
+            <li>
+              <a href="#" class="registration-item">
+                <i class="fas fa-user-tie"></i> Option Two
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- =====================================================
+       HERO
+       ===================================================== -->
+  <section class="hero" id="home">
+
+    <!-- Optional background video -->
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="assets/hero-video.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-overlay">
+      <div class="container hero-container">
+
+        <div class="hero-content">
+          <h1>
+            YOUR MAIN<br>
+            <span class="mun-title">WEBSITE TITLE</span>
+          </h1>
+
+          <p class="tagline">
+            Your short description, slogan, or introduction goes here.
+          </p>
+
+          <img
+            src="assets/logo.png"
+            alt="Logo"
+            class="mobile-logo-image"
+          >
+
+          <div class="hero-buttons">
+            <a href="#primary" class="btn btn-primary">Primary Action</a>
+            <a href="#secondary" class="btn btn-secondary">Secondary Action</a>
+          </div>
+        </div>
+
+        <div class="globe-container">
+          <img src="assets/logo.png" alt="Main Logo">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="scroll-down">
+      <div class="mouse"><div class="wheel"></div></div>
+      <div class="arrow"></div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+     ANNOUNCEMENT / MARQUEE
+     ===================================================== -->
+<section class="agendas-marquee-container">
+  <div class="agendas-marquee-track">
+    <span class="marquee-item">
+      <span class="megaphone-icon">📢</span>
+      YOUR ANNOUNCEMENT
+      <span class="megaphone-icon">📢</span>
+    </span>
+    <span class="marquee-item">
+      <span class="megaphone-icon">📢</span>
+      YOUR ANNOUNCEMENT
+      <span class="megaphone-icon">📢</span>
+    </span>
+    <span class="marquee-item">
+      <span class="megaphone-icon">📢</span>
+      YOUR ANNOUNCEMENT
+      <span class="megaphone-icon">📢</span>
+    </span>
+  </div>
+</section>
+
+<!-- =====================================================
+     COUNTDOWN / EVENT INFO
+     ===================================================== -->
+<section class="countdown-section">
+  <div class="container countdown-content">
+
+    <h2>YOUR EVENT STARTS IN:</h2>
+
+    <p class="event-date">
+      <i class="far fa-calendar-alt"></i>
+      YOUR EVENT DATE
+    </p>
+
+    <div class="countdown-container">
+      <div class="countdown-item">
+        <div class="countdown-number">00</div>
+        <div class="countdown-label">Days</div>
+      </div>
+
+      <div class="countdown-item">
+        <div class="countdown-number">00</div>
+        <div class="countdown-label">Hours</div>
+      </div>
+
+      <div class="countdown-item">
+        <div class="countdown-number">00</div>
+        <div class="countdown-label">Minutes</div>
+      </div>
+
+      <div class="countdown-item">
+        <div class="countdown-number">00</div>
+        <div class="countdown-label">Seconds</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     WELCOME / ABOUT
+     ===================================================== -->
+<section class="welcome-section" id="about">
+  <div class="container">
+
+    <h2>SECTION TITLE</h2>
+
+    <div class="welcome-card">
+      <div class="welcome-card-content">
+
+        <div class="welcome-image-column">
+          <div class="image-frame">
+            <img src="assets/feature-image.jpg" alt="Feature Image">
+          </div>
+
+          <div class="signature">
+            <p>PERSON NAME</p>
+            <p>ROLE / TITLE</p>
+          </div>
+        </div>
+
+        <div class="welcome-text">
+          <p class="quote">
+            “Your highlighted quote or introductory statement goes here.”
+          </p>
+
+          <p>
+            Replace this paragraph with your main content. The layout,
+            spacing, typography, card structure, and responsive behaviour
+            are controlled entirely from style.css.
+          </p>
+
+          <p>
+            Add as many paragraphs as required. You only need to edit the
+            HTML content; the design does not need to be changed.
+          </p>
+
+          <p>
+            Additional information, descriptions, history, explanations,
+            or other page-specific content can go here.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     PARTNERS / LOGO CAROUSEL
+     Duplicate the sponsor-card group if required.
+     ===================================================== -->
+<section class="sponsors-section" id="partners">
+  <div class="container">
+
+    <h2>OUR PARTNERS</h2>
+
+    <div class="sponsors-carousel">
+      <div class="sponsors-track">
+
+        <div class="sponsor-card">
+          <img src="assets/sponsor-1.png" alt="Logo 1">
+        </div>
+
+        <div class="sponsor-card">
+          <img src="assets/sponsor-2.png" alt="Logo 2">
+        </div>
+
+        <div class="sponsor-card">
+          <img src="assets/sponsor-3.png" alt="Logo 3">
+        </div>
+
+        <div class="sponsor-card">
+          <img src="assets/sponsor-4.png" alt="Logo 4">
+        </div>
+
+        <div class="sponsor-card">
+          <img src="assets/sponsor-5.png" alt="Logo 5">
+        </div>
+
+        <!-- Duplicate set for the seamless animation -->
+        <div class="sponsor-card">
+          <img src="assets/sponsor-1.png" alt="Logo 1">
+        </div>
+
+        <div class="sponsor-card">
+          <img src="assets/sponsor-2.png" alt="Logo 2">
+        </div>
+
+        <div class="sponsor-card">
+          <img src="assets/sponsor-3.png" alt="Logo 3">
+        </div>
+
+        <div class="sponsor-card">
+          <img src="assets/sponsor-4.png" alt="Logo 4">
+        </div>
+
+        <div class="sponsor-card">
+          <img src="assets/sponsor-5.png" alt="Logo 5">
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- =====================================================
+     FEATURES / SERVICES (CARDS)
+     ===================================================== -->
+  <section class="features-section" id="features">
+    <div class="container">
+
+      <h2>OUR FEATURES</h2>
+
+      <div class="cards-container">
+
+        <article class="card">
+          <div class="card-icon">
+            <i class="fas fa-globe"></i>
+          </div>
+          <h3>Feature One</h3>
+          <p>Short description highlighting the details of this feature or service.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">
+            <i class="fas fa-comments"></i>
+          </div>
+          <h3>Feature Two</h3>
+          <p>Short description highlighting the details of this feature or service.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <h3>Feature Three</h3>
+          <p>Short description highlighting the details of this feature or service.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h3>Feature Four</h3>
+          <p>Short description highlighting the details of this feature or service.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Feature Five</h3>
+          <p>Short description highlighting the details of this feature or service.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">
+            <i class="fas fa-tasks"></i>
+          </div>
+          <h3>Feature Six</h3>
+          <p>Short description highlighting the details of this feature or service.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+         PAGE HEADER
+         ===================================================== -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Heading</h1>
+            <p>Subtext goes here</p>
+        </div>
+    </header>
+
+  <!-- =====================================================
+     TEAM DISPLAY SECTION (TEMPLATE)
+     ===================================================== -->
+  <section class="team-display-section">
+      <div class="container">
+          <div class="team-display-title">
+              <h2>SECTION TITLE</h2>
+              <p>Your short section description, slogan, or introductory text goes here.</p>
+          </div>
+          <div class="team-display-grid">
+
+              <!-- Member 1 -->
+              <div class="team-display-card">
+                  <div class="team-display-image">
+                      <img src="assets/member-1.jpg" alt="Member Name">
+                  </div>
+                  <div class="team-display-details">
+                      <h3>PERSON NAME</h3>
+                      <p class="team-display-role">ROLE / TITLE</p>
+                  </div>
+                  <div class="team-display-info">
+                      <div class="team-display-message">
+                          <p>Dear Reader,</p>
+                          <p>Replace this paragraph with the first part of your team member message, welcome note, or description.</p>
+                          <p>Add additional paragraphs here to flesh out the content as needed. The message area supports scrolling for longer text.</p>
+                          <p>Warm Regards,<br>Person Name</p>
+                      </div>
+                      <div class="team-display-social">
+                          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Member 2 -->
+              <div class="team-display-card">
+                  <div class="team-display-image">
+                      <img src="assets/member-2.jpg" alt="Member Name">
+                  </div>
+                  <div class="team-display-details">
+                      <h3>PERSON NAME</h3>
+                      <p class="team-display-role">ROLE / TITLE</p>
+                  </div>
+                  <div class="team-display-info">
+                      <div class="team-display-message">
+                          <p>Dear Reader,</p>
+                          <p>Replace this paragraph with the first part of your team member message, welcome note, or description.</p>
+                          <p>Add additional paragraphs here to flesh out the content as needed. The message area supports scrolling for longer text.</p>
+                          <p>Warm Regards,<br>Person Name</p>
+                      </div>
+                      <div class="team-display-social">
+                          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Member 3 -->
+              <div class="team-display-card">
+                  <div class="team-display-image">
+                      <img src="assets/member-3.jpg" alt="Member Name">
+                  </div>
+                  <div class="team-display-details">
+                      <h3>PERSON NAME</h3>
+                      <p class="team-display-role">ROLE / TITLE</p>
+                  </div>
+                  <div class="team-display-info">
+                      <div class="team-display-message">
+                          <p>Dear Reader,</p>
+                          <p>Replace this paragraph with the first part of your team member message, welcome note, or description.</p>
+                          <p>Add additional paragraphs here to flesh out the content as needed. The message area supports scrolling for longer text.</p>
+                          <p>Warm Regards,<br>Person Name</p>
+                      </div>
+                      <div class="team-display-social">
+                          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Member 4 -->
+              <div class="team-display-card">
+                  <div class="team-display-image">
+                      <img src="assets/member-4.jpg" alt="Member Name">
+                  </div>
+                  <div class="team-display-details">
+                      <h3>PERSON NAME</h3>
+                      <p class="team-display-role">ROLE / TITLE</p>
+                  </div>
+                  <div class="team-display-info">
+                      <div class="team-display-message">
+                          <p>Dear Reader,</p>
+                          <p>Replace this paragraph with the first part of your team member message, welcome note, or description.</p>
+                          <p>Add additional paragraphs here to flesh out the content as needed. The message area supports scrolling for longer text.</p>
+                          <p>Warm Regards,<br>Person Name</p>
+                      </div>
+                      <div class="team-display-social">
+                          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </section>
+
+<!-- =====================================================
+     BENTO GRID TEAM DISPLAY (TEMPLATE)
+     ===================================================== -->
+<header class="team-hero">
+    <div class="hero-content">
+        <h1>TEAM DISPLAY TITLE</h1>
+        <p>Your short description, slogan, or introduction goes here explaining the team or department showcase.</p>
+    </div>
+</header>
+
+<section class="team-section">
+    <div class="bento-grid">
+        
+        <!-- Standard Card -->
+        <article class="bento-item" data-team="Team One">
+            <div class="bento-inner">
+                <div class="card-body">
+                    <img src="assets/team-1.jpg" alt="Team One" />
+                    <div class="bento-overlay">
+                        <h3 class="bento-title">Team One</h3>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Wide Card (Spans 2 columns) -->
+        <article class="bento-item bento-item--wide" data-team="Featured Team">
+            <div class="bento-inner">
+                <div class="card-body">
+                    <img src="assets/team-wide-1.jpg" alt="Featured Team" />
+                    <div class="bento-overlay">
+                        <h3 class="bento-title">Featured Team</h3>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Standard Card -->
+        <article class="bento-item" data-team="Team Two">
+            <div class="bento-inner">
+                <div class="card-body">
+                    <img src="assets/team-2.jpg" alt="Team Two" />
+                    <div class="bento-overlay">
+                        <h3 class="bento-title">Team Two</h3>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- =====================================================
+     BREADCRUMB & PAGE HEADER
+     ===================================================== -->
+<header class="page-header">
+    <div class="container">
+        <h1>PAGE TITLE</h1>
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Parent Page</a></li>
+            <li>Current Page</li>
+        </ul>
+        <div class="header-divider"></div>
+        <p>Your short subtext description or introductory tagline goes here.</p>
+    </div>
+</header>
+
+<!-- =====================================================
+     MAIN CONTENT & FEATURES GRID
+     ===================================================== -->
+<section class="content-section">
+    <div class="container">
+        <div class="intro-section">
+            <p>Replace this paragraph with your primary content introduction or overview description. It acts as a clear lead-in for your readers.</p>
+            <p>Add subsequent paragraphs to elaborate on background details, missions, or key operational frameworks as required.</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Feature One</h3>
+                <p>Short descriptive text for this grid item outlining specific functions, tracks, or segments.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-laptop"></i>
+                </div>
+                <h3>Feature Two</h3>
+                <p>Short descriptive text for this grid item outlining specific functions, tracks, or segments.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================
+     TIMELINE SECTION
+     ===================================================== -->
+<section class="timeline-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>SECTION TIMELINE TITLE</h2>
+            <p>Introductory paragraph explaining the chronological milestones, steps, or highlighted historical highlights.</p>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Milestone One</h3>
+                    <p>Detailed description of this historical achievement, phase, or milestone step.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Milestone Two</h3>
+                    <p>Detailed description of this historical achievement, phase, or milestone step.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Milestone Three</h3>
+                    <p>Detailed description of this historical achievement, phase, or milestone step.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('.feature-card, .timeline-item');
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                if (elementTop < windowHeight - 50) {
+                    element.classList.add('visible');
+                }
+            });
+        };
+
+        animateOnScroll();
+        window.addEventListener('scroll', animateOnScroll);
+    });
+</script>
+
+<!-- =====================================================
+     CHRONICLES HERO SECTION (TEMPLATE)
+     ===================================================== -->
+<section class="chronicles-hero">
+    <div class="hero-content">
+        <h1>PAGE MAIN TITLE</h1>
+        <p>Relive the unforgettable moments, highlights, and inspiring memories through our curated photo gallery collection.</p>
+    </div>
+</section>
+
+<!-- =====================================================
+     MASONRY GALLERY SECTION (TEMPLATE)
+     ===================================================== -->
+<section class="gallery-section">
+    <div class="container">
+        <h2 class="section-title">Gallery Highlights</h2>
+        
+        <!-- Masonry Grid (Items 1 to 10 unified) -->
+        <div class="masonry-grid">
+            
+            <!-- Large featured image (spans 2 columns & 2 rows) -->
+            <div class="masonry-item large">
+                <img src="assets/gallery-1.jpg" alt="Gallery Highlight One" class="masonry-img">
+                <div class="masonry-overlay">
+                    <h3 class="masonry-title">Feature Title One</h3>
+                    <div class="masonry-category">Category Description</div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="masonry-item">
+                <img src="assets/gallery-2.jpg" alt="Gallery Highlight Two" class="masonry-img">
+                <div class="masonry-overlay">
+                    <h3 class="masonry-title">Feature Title Two</h3>
+                    <div class="masonry-category">Category Description</div>
+                </div>
+            </div>
+
+            <!-- Tall image (spans 2 rows) -->
+            <div class="masonry-item tall">
+                <img src="assets/gallery-3.jpg" alt="Gallery Highlight Three" class="masonry-img">
+                <div class="masonry-overlay">
+                    <h3 class="masonry-title">Feature Title Three</h3>
+                    <div class="masonry-category">Category Description</div>
+                </div>
+            </div>
+
+            <!-- Wide image (spans 2 columns) -->
+            <div class="masonry-item wide">
+                <img src="assets/gallery-4.jpg" alt="Gallery Highlight Four" class="masonry-img">
+                <div class="masonry-overlay">
+                    <h3 class="masonry-title">Feature Title Four</h3>
+                    <div class="masonry-category">Category Description</div>
+                </div>
+            </div>
+
+            <!-- Wide image -->
+            <div class="masonry-item wide">
+                <img src="assets/gallery-5.jpg" alt="Gallery Highlight Five" class="masonry-img">
+                <div class="masonry-overlay">
+                    <h3 class="masonry-title">Feature Title Five</h3>
+                    <div class="masonry-category">Category Description</div>
+                </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="masonry-item">
+                <img src="assets/gallery-6.jpg" alt="Gallery Highlight Six" class="masonry-img">
+                <div class="masonry-overlay">
+                    <h3 class="masonry-title">Feature Title Six</h3>
+                    <div class="masonry-category">Category Description</div>
+                </div>
+            </div>
+
+            <!-- Tall image -->
+            <div class="masonry-item tall">
+                <img src="assets/gallery-7.jpg" alt="Gallery Highlight Seven" class="masonry-img">
+                <div class="masonry-overlay">
+                    <h3 class="masonry-title">Feature Title Seven</h3>
+                    <div class="masonry-category">Category Description</div>
+                </div>
+            </div>
+
+            <!-- Wide item -->
+            <div class="masonry-item wide">
+                <img src="assets/gallery-8.jpg" alt="Gallery Highlight Eight" class="masonry-img">
+                <div class="masonry-overlay">
+                    <h3 class="masonry-title">Feature Title Eight</h3>
+                    <div class="masonry-category">Category Description</div>
+                </div>
+            </div>
+
+            <!-- Item 9 (Now cleanly inside the main grid) -->
+            <div class="masonry-item">
+                <img src="assets/gallery-9.jpg" alt="Gallery Highlight Nine" class="masonry-img">
+                <div class="masonry-overlay">
+                    <h3 class="masonry-title">Feature Title Nine</h3>
+                    <div class="masonry-category">Category Description</div>
+                </div>
+            </div>
+
+            <!-- Item 10 (Now cleanly inside the main grid) -->
+            <div class="masonry-item">
+                <img src="assets/gallery-10.jpg" alt="Gallery Highlight Ten" class="masonry-img">
+                <div class="masonry-overlay">
+                    <h3 class="masonry-title">Feature Title Ten</h3>
+                    <div class="masonry-category">Category Description</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================
+     TEAM / CLUB SECTION (TEMPLATE)
+     ===================================================== -->
+<section class="club-section">
+    <div class="container">
+        <div class="club-grid">
+            
+            <!-- Member Card 1 -->
+            <div class="member-card">
+                <div class="member-image">
+                    <img src="assets/member-1.jpg" alt="Member Name One">
+                </div>
+                <div class="member-details">
+                    <h3 class="member-name">PERSON NAME ONE</h3>
+                    <span class="member-role">ROLE / TITLE</span>
+                    <p class="member-bio">Short biographical statement or descriptive description outlining their responsibilities and vision.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Email" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Member Card 2 -->
+            <div class="member-card">
+                <div class="member-image">
+                    <img src="assets/member-2.jpg" alt="Member Name Two">
+                </div>
+                <div class="member-details">
+                    <h3 class="member-name">PERSON NAME TWO</h3>
+                    <span class="member-role">ROLE / TITLE</span>
+                    <p class="member-bio">Short biographical statement or descriptive description outlining their responsibilities and vision.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Email" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Member Card 3 -->
+            <div class="member-card">
+                <div class="member-image">
+                    <img src="assets/member-3.jpg" alt="Member Name Three">
+                </div>
+                <div class="member-details">
+                    <h3 class="member-name">PERSON NAME THREE</h3>
+                    <span class="member-role">ROLE / TITLE</span>
+                    <p class="member-bio">Short biographical statement or descriptive description outlining their responsibilities and vision.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Email" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================
+     COMMITTEES SECTION (TEMPLATE)
+     ===================================================== -->
+<div class="committees-container">
+    
+    <!-- Category Section 1 -->
+    <section class="committee-section">
+        <h2>Category Title One</h2>
+        <div class="committees-grid">
+            
+            <!-- Committee Card 1 -->
+            <div class="committee-card">
+                <div class="committee-card-inner">
+                    <div class="committee-card-front">
+                        <div class="committee-logo">
+                            <img src="assets/logo-1.png" alt="Logo One">
+                            <i class="fas fa-globe" style="display: none;"></i>
+                        </div>
+                        <h3>Committee Name One</h3>
+                    </div>
+                    <div class="committee-card-back">
+                        <h3>Committee Name One</h3>
+                        <p>Short description or full committee title goes here.</p>
+                        <a href="#" class="btn-committee">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Committee Card 2 -->
+            <div class="committee-card">
+                <div class="committee-card-inner">
+                    <div class="committee-card-front">
+                        <div class="committee-logo">
+                            <img src="assets/logo-2.png" alt="Logo Two">
+                            <i class="fas fa-landmark" style="display: none;"></i>
+                        </div>
+                        <h3>Committee Name Two</h3>
+                    </div>
+                    <div class="committee-card-back">
+                        <h3>Committee Name Two</h3>
+                        <p>Short description or full committee title goes here.</p>
+                        <a href="#" class="btn-committee">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Category Section 2 -->
+    <section class="committee-section">
+        <h2>Category Title Two</h2>
+        <div class="committees-grid">
+            
+            <!-- Committee Card 3 -->
+            <div class="committee-card">
+                <div class="committee-card-inner">
+                    <div class="committee-card-front">
+                        <div class="committee-logo">
+                            <img src="assets/logo-3.png" alt="Logo Three">
+                            <i class="fas fa-gavel" style="display: none;"></i>
+                        </div>
+                        <h3>Committee Name Three</h3>
+                    </div>
+                    <div class="committee-card-back">
+                        <h3>Committee Name Three</h3>
+                        <p>Short description or full committee title goes here.</p>
+                        <a href="#" class="btn-committee">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+
+<!-- =====================================================
+     ACCORDION SECTIONS CONTAINER (TEMPLATE)
+     ===================================================== -->
+<div class="guiding-light-container">
+    
+    <!-- Section Toggle 1 -->
+    <div class="section-toggle">
+        <div class="section-header">
+            <h2>Category Title One</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="section-content">
+            <div class="members-grid">
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="assets/member-1.jpg" alt="Member Name" class="member-photo">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">PERSON NAME ONE</h3>
+                        <p class="member-designation">
+                            Designation / Title Line One<br>Organization / Department
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section Toggle 2 -->
+    <div class="section-toggle">
+        <div class="section-header">
+            <h2>Category Title Two</h2>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="section-content">
+            <div class="members-grid">
+                <div class="member-card">
+                    <div class="member-image">
+                        <img src="assets/member-2.jpg" alt="Member Name" class="member-photo">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">PERSON NAME TWO</h3>
+                        <p class="member-designation">
+                            Designation / Title Line One<br>Organization / Department
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const sectionHeaders = document.querySelectorAll('.section-header');
+
+        sectionHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const parentSection = header.parentElement;
+                const isActive = parentSection.classList.contains('active');
+
+                // Optional: Close all other sections when opening a new one
+                document.querySelectorAll('.section-toggle').forEach(section => {
+                    section.classList.remove('active');
+                });
+
+                // Toggle current section
+                if (!isActive) {
+                    parentSection.classList.add('active');
+                }
+            });
+        });
+
+        // NOTE: The block that automatically opened the first section has been removed, 
+        // so all accordion sections now start completely closed by default.
+    });
+</script>
+
+<!-- Organizing Committee Section -->
+<section class="oc-section">
+    <div class="section-header">
+        <h1>Organizing Committee</h1>
+        <p>Meet the dedicated team members who work tirelessly behind the scenes to make the conference a remarkable success.</p>
+    </div>
+
+    <!-- Department Group -->
+    <div class="department-group">
+        <h2 class="department-title">Department Name Here</h2>
+        <div class="oc-grid">
+            
+            <!-- Member Card 1 -->
+            <div class="oc-card">
+                <div class="oc-card-inner">
+                    <div class="oc-card-front">
+                        <div class="member-initial">JD</div>
+                        <h3 class="member-name">John Doe</h3>
+                        <p class="member-role">Team Lead</p>
+                    </div>
+                    <div class="oc-card-back">
+                        <div class="member-image-placeholder">Photo</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Member Card 2 -->
+            <div class="oc-card">
+                <div class="oc-card-inner">
+                    <div class="oc-card-front">
+                        <div class="member-initial">JS</div>
+                        <h3 class="member-name">Jane Smith</h3>
+                        <p class="member-role">Coordinator</p>
+                    </div>
+                    <div class="oc-card-back">
+                        <div class="member-image-placeholder">Photo</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Member Card 3 -->
+            <div class="oc-card">
+                <div class="oc-card-inner">
+                    <div class="oc-card-front">
+                        <div class="member-initial">AJ</div>
+                        <h3 class="member-name">Alex Johnson</h3>
+                        <p class="member-role">Member</p>
+                    </div>
+                    <div class="oc-card-back">
+                        <div class="member-image-placeholder">Photo</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const ocCards = document.querySelectorAll('.oc-card');
+    
+    ocCards.forEach(card => {
+        card.addEventListener('click', function() {
+            const cardInner = card.querySelector('.oc-card-inner');
+            if (cardInner.style.transform === 'rotateY(180deg)') {
+                cardInner.style.transform = 'rotateY(0deg)';
+            } else {
+                cardInner.style.transform = 'rotateY(180deg)';
+            }
+        });
+    });
+});
+</script>
+
+
+
+<!-- =====================================================
+     MATRIX TABLE CONTAINER (TEMPLATE)
+     ===================================================== -->
+<section class="matrix-container">
+    <div class="matrix-table-container">
+        <div class="table-wrapper">
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <span>Loading data...</span>
+            </div>
+            <table id="matrix-table">
+                <!-- Table headers and rows will be dynamically populated by JavaScript -->
+            </table>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const filePath = 'Matrix.xlsx'; // Ensure this matches your file path and name
+        const loadingEl = document.getElementById('loading');
+        const tableEl = document.getElementById('matrix-table');
+        let columnWidths = [];
+
+        function ensureUI() {
+            let actionBar = document.getElementById('matrix-actions');
+            if (!actionBar) {
+                actionBar = document.createElement('div');
+                actionBar.id = 'matrix-actions';
+                actionBar.style.display = 'flex';
+                actionBar.style.flexDirection = 'column';
+                actionBar.style.padding = '12px 16px';
+                actionBar.style.background = '#fff';
+                actionBar.style.borderBottom = '1px solid #e0e0e0';
+        
+                // Create carousel container for multiple sheet tabs
+                const carouselContainer = document.createElement('div');
+                carouselContainer.style.display = 'flex';
+                carouselContainer.style.alignItems = 'center';
+                carouselContainer.style.width = '100%';
+                carouselContainer.style.position = 'relative';
+                carouselContainer.style.marginBottom = '15px';
+        
+                const leftArrow = document.createElement('button');
+                leftArrow.innerHTML = '❮';
+                leftArrow.style.background = 'none';
+                leftArrow.style.border = 'none';
+                leftArrow.style.fontSize = '20px';
+                leftArrow.style.cursor = 'pointer';
+                leftArrow.style.padding = '0 10px';
+                leftArrow.style.color = '#001F54';
+                leftArrow.style.flexShrink = '0';
+        
+                const tabs = document.createElement('div');
+                tabs.id = 'sheet-tabs';
+                tabs.style.display = 'flex';
+                tabs.style.overflowX = 'auto';
+                tabs.style.scrollBehavior = 'smooth';
+                tabs.style.scrollbarWidth = 'none';
+                tabs.style.msOverflowStyle = 'none';
+                tabs.style.flex = '1';
+                tabs.style.padding = '10px 0';
+        
+                const tools = document.createElement('div');
+                tools.style.display = 'flex';
+                tools.style.gap = '10px';
+                tools.style.flexWrap = 'wrap';
+                tools.innerHTML = `
+                    <input id="matrix-search" type="search" placeholder="Search this sheet..." style="padding:8px 10px;border:1px solid #ddd;border-radius:8px;min-width:220px;flex:1;">
+                    <button id="download-excel" class="btn btn-secondary" style="background: #001F54; border-color: #001F54; color: white; padding: 8px 16px; border-radius: 8px; cursor: pointer;">Download Sheet</button>
+                `;
+        
+                const rightArrow = document.createElement('button');
+                rightArrow.innerHTML = '❯';
+                rightArrow.style.background = 'none';
+                rightArrow.style.border = 'none';
+                rightArrow.style.fontSize = '20px';
+                rightArrow.style.cursor = 'pointer';
+                rightArrow.style.padding = '0 10px';
+                rightArrow.style.color = '#001F54';
+                rightArrow.style.flexShrink = '0';
+
+                leftArrow.addEventListener('click', () => { tabs.scrollBy({ left: -200, behavior: 'smooth' }); });
+                rightArrow.addEventListener('click', () => { tabs.scrollBy({ left: 200, behavior: 'smooth' }); });
+
+                carouselContainer.appendChild(leftArrow);
+                carouselContainer.appendChild(tabs);
+                carouselContainer.appendChild(rightArrow);
+                
+                actionBar.appendChild(carouselContainer);
+                actionBar.appendChild(tools);
+        
+                const container = document.querySelector('.matrix-table-container');
+                if (container) container.prepend(actionBar);
+            }
+        }
+        
+        function buildTabs(sheetNames, onSelect, activeName) {
+            const tabs = document.getElementById('sheet-tabs');
+            if (!tabs) return;
+            tabs.innerHTML = '';
+            sheetNames.forEach(name => {
+                const btn = document.createElement('button');
+                btn.textContent = name;
+                btn.style.padding = '6px 14px';
+                btn.style.borderRadius = '16px';
+                btn.style.border = '1px solid #cfd8e3';
+                btn.style.background = name === activeName ? 'var(--primary-color, #001F54)' : '#fff';
+                btn.style.color = name === activeName ? '#fff' : '#0b1f44';
+                btn.style.fontWeight = '600';
+                btn.style.cursor = 'pointer';
+                btn.style.whiteSpace = 'nowrap';
+                btn.addEventListener('click', () => onSelect(name));
+                tabs.appendChild(btn);
+            });
+        }
+        
+        function renderSheet(sheet, options = {}) {
+            const { filterText = '' } = options;
+            const rows = XLSX.utils.sheet_to_json(sheet, { header: 1, raw: true });
+        
+            const q = filterText.trim().toLowerCase();
+            const filtered = q
+                ? rows.filter((r, i) => i === 0 || r.some(cell => String(cell ?? '').toLowerCase().includes(q)))
+                : rows;
+        
+            tableEl.innerHTML = '';
+        
+            if (columnWidths.length === 0) {
+                filtered.forEach(row => {
+                    row.forEach((cell, colIndex) => {
+                        const cellLength = String(cell ?? '').length;
+                        columnWidths[colIndex] = Math.max(columnWidths[colIndex] || 0, cellLength);
+                    });
+                });
+            }
+        
+            const thead = document.createElement('thead');
+            const tbody = document.createElement('tbody');
+        
+            filtered.forEach((row, idx) => {
+                const tr = document.createElement('tr');
+                row.forEach((cell, colIndex) => {
+                    const el = document.createElement(idx === 0 ? 'th' : 'td');
+                    el.textContent = cell == null ? '' : String(cell);
+        
+                    if (columnWidths[colIndex]) {
+                        el.style.minWidth = `${Math.min(columnWidths[colIndex] * 8 + 20, 300)}px`;
+                        el.style.maxWidth = '300px';
+                        el.style.overflow = 'hidden';
+                        el.style.textOverflow = 'ellipsis';
+                        el.style.whiteSpace = 'nowrap';
+                    }
+                    tr.appendChild(el);
+                });
+                if (idx === 0) thead.appendChild(tr);
+                else tbody.appendChild(tr);
+            });
+        
+            tableEl.appendChild(thead);
+            tableEl.appendChild(tbody);
+            tableEl.style.tableLayout = 'fixed';
+        
+            if (loadingEl) loadingEl.style.display = 'none';
+            tableEl.style.display = 'table';
+        }
+        
+        function downloadExcelSheet(sheet, name = 'sheet') {
+            const wb = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(wb, sheet, name);
+            XLSX.writeFile(wb, `${name}.xlsx`);
+        }
+        
+        async function init() {
+            ensureUI();
+            if (loadingEl) loadingEl.style.display = 'flex';
+        
+            columnWidths = [];
+        
+            const res = await fetch(filePath);
+            if (!res.ok) throw new Error(`HTTP ${res.status} loading ${filePath}`);
+            const buf = await res.arrayBuffer();
+        
+            const wb = XLSX.read(buf, { type: 'array' });
+            if (!wb.SheetNames?.length) throw new Error('No worksheets found');
+        
+            let activeName = wb.SheetNames[0];
+            buildTabs(wb.SheetNames, selectSheet, activeName);
+        
+            function selectSheet(name) {
+                activeName = name;
+                const sheet = wb.Sheets[name];
+                const search = document.getElementById('matrix-search');
+                renderSheet(sheet, { filterText: search?.value || '' });
+                buildTabs(wb.SheetNames, selectSheet, activeName);
+        
+                const dl = document.getElementById('download-excel');
+                if (dl) {
+                    dl.onclick = () => downloadExcelSheet(sheet, name);
+                }
+            }
+        
+            const search = document.getElementById('matrix-search');
+            if (search) {
+                let t;
+                search.addEventListener('input', () => {
+                    clearTimeout(t);
+                    t = setTimeout(() => selectSheet(activeName), 150);
+                });
+            }
+        
+            selectSheet(activeName);
+        
+            const downloadFullBtn = document.getElementById('download-csv');
+            if (downloadFullBtn) {
+                downloadFullBtn.onclick = (e) => {
+                    e.preventDefault();
+                    const link = document.createElement('a');
+                    link.href = filePath;
+                    link.download = 'Country-Matrix.xlsx';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                };
+            }
+        }
+        
+        init().catch(err => {
+            console.error(err);
+            if (loadingEl) {
+                loadingEl.innerHTML = `
+                    <div style="text-align:center; padding:20px;">
+                        <i class="fas fa-exclamation-triangle" style="font-size:2rem; color:#e74c3c; margin-bottom:10px;"></i>
+                        <p>Failed to load matrix: ${err.message}</p>
+                    </div>
+                `;
+            }
+        });
+    });
+</script>
+
+<!-- =====================================================
+     PUBLICATIONS & NEWSLETTER SECTION (TEMPLATE)
+     ===================================================== -->
+<section class="publications">
+    <div class="section-title">
+        <h2>Section Heading Here</h2>
+        <p>Short introductory subtext describing the publications, magazines, or conference newsletters displayed below.</p>
+    </div>
+   
+    <div class="pub-grid">
+        
+        <!-- Publication Item 1 -->
+        <div class="pub-item">
+            <div class="pub-preview-container">
+                <iframe 
+                    class="pub-preview"
+                    src="YOUR_DOCUMENT_PREVIEW_LINK_HERE"
+                    allow="autoplay"
+                    title="Document Preview One"
+                ></iframe>
+            </div>
+            
+            <div class="pub-info-card">
+                <h3 class="pub-title">Publication Title One</h3>
+                <p class="pub-desc">Detailed descriptive paragraph outlining the contents, highlights, page count, or key features of this specific publication.</p>
+                
+                <div class="pub-meta">
+                    <span class="meta-item">
+                        <i class="far fa-file-pdf"></i> PDF Document
+                    </span>
+                    <span class="meta-item">
+                        <i class="far fa-file-alt"></i> X Pages
+                    </span>
+                    <span class="meta-item">
+                        <i class="far fa-calendar-alt"></i> Year / Edition
+                    </span>
+                </div>
+                
+                <div class="btn-group">
+                    <a href="#" target="_blank" class="btn">
+                        <i class="fas fa-eye"></i> View Full Document
+                    </a>
+                    <a href="#" class="btn btn-outline" download>
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Publication Item 2 (External Link Example) -->
+        <div class="pub-item">
+            <div class="pub-preview-container">
+                <iframe 
+                    class="pub-preview"
+                    src="YOUR_DOCUMENT_PREVIEW_LINK_HERE"
+                    allow="autoplay"
+                    title="Document Preview Two"
+                ></iframe>
+            </div>
+            
+            <div class="pub-info-card">
+                <h3 class="pub-title">Publication Title Two</h3>
+                <p class="pub-desc">Detailed descriptive paragraph outlining the contents, highlights, page count, or key features of this specific publication.</p>
+                
+                <div class="pub-meta">
+                    <span class="meta-item">
+                        <i class="far fa-file-pdf"></i> PDF Document
+                    </span>
+                    <span class="meta-item">
+                        <i class="far fa-file-alt"></i> X Pages
+                    </span>
+                    <span class="meta-item">
+                        <i class="far fa-calendar-alt"></i> Year / Edition
+                    </span>
+                </div>
+                
+                <div class="btn-group">
+                    <a href="#" target="_blank" class="btn">
+                        <i class="fas fa-external-link-alt"></i> Visit External Link
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- =====================================================
+     CONTACT
+     ===================================================== -->
+<section class="contact-section contact-video-bg" id="contact">
+
+  <video class="contact-bg-video" autoplay muted loop playsinline>
+    <source src="assets/contact-video.mp4" type="video/mp4">
+  </video>
+
+  <div class="contact-video-overlay"></div>
+
+  <div class="container contact-overlay-content">
+
+    <h2>CONTACT US</h2>
+
+    <div class="contact-flexbox">
+
+      <div class="contact-info">
+        <h3>GET IN TOUCH</h3>
+
+        <p>
+          Your contact introduction goes here.
+        </p>
+
+        <div class="contact-details">
+          <p>
+            <i class="fas fa-map-marker-alt"></i>
+            YOUR ADDRESS
+          </p>
+
+          <p>
+            <i class="fas fa-envelope"></i>
+            email@example.com
+          </p>
+        </div>
+
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a href="#" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
+          <a href="#" aria-label="Website">
+            <i class="fas fa-globe"></i>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="core-team-contacts">
+
+        <div class="team-contact">
+          <h4>PERSON ONE</h4>
+          <p>
+            ROLE / TITLE<br>
+            email@example.com<br>
+            <i class="fas fa-phone"></i>
+            <a href="tel:+000000000000">+00 00000 00000</a>
+          </p>
+        </div>
+
+        <div class="team-contact">
+          <h4>PERSON TWO</h4>
+          <p>
+            ROLE / TITLE<br>
+            email@example.com<br>
+            <i class="fas fa-phone"></i>
+            <a href="tel:+000000000000">+00 00000 00000</a>
+          </p>
+        </div>
+
+        <div class="team-contact">
+          <h4>PERSON THREE</h4>
+          <p>
+            ROLE / TITLE<br>
+            email@example.com<br>
+            <i class="fas fa-phone"></i>
+            <a href="tel:+000000000000">+00 00000 00000</a>
+          </p>
+        </div>
+
+        <div class="team-contact">
+          <h4>PERSON FOUR</h4>
+          <p>
+            ROLE / TITLE<br>
+            email@example.com<br>
+            <i class="fas fa-phone"></i>
+            <a href="tel:+000000000000">+00 00000 00000</a>
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     MAP
+     ===================================================== -->
+<section class="map-section">
+  <div class="container">
+
+    <h2>OUR LOCATION</h2>
+
+    <div class="map-container">
+      <!-- Replace this iframe with your own Google Maps embed link -->
+      <iframe
+        src="about:blank"
+        width="100%"
+        height="300"
+        style="border:0"
+        loading="lazy"
+        title="Location Map">
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+<footer class="footer">
+  <div class="container">
+
+    <div class="footer-content">
+
+      <div class="footer-about">
+        <h3>ABOUT</h3>
+        <p>
+          Your website description goes here. Replace this with your own
+          organization, project, company, event, or application information.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h3>QUICK LINKS</h3>
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        &copy; 2026 YOUR WEBSITE. All Rights Reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+<!-- Back to top -->
+<a href="#home" class="back-to-top" aria-label="Back to top">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const backToTop = document.querySelector('.back-to-top');
+
+    if (backToTop) {
+      window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+          backToTop.classList.add('visible');
+        } else {
+          backToTop.classList.remove('visible');
+        }
+      });
+    }
+  });
+</script>
+
+</body>
+
+</html>
