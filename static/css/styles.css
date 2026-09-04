@@ -1060,6 +1060,12 @@ textarea:focus-visible {
     border-radius: 24px;
     background: linear-gradient(135deg, var(--mc-mint), var(--mc-azure));
     box-shadow: 0 20px 45px -25px rgba(7, 21, 35, 0.35);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mc-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 28px 55px -25px rgba(7, 21, 35, 0.45);
 }
 
 .mc-card__label {
@@ -1118,6 +1124,15 @@ textarea:focus-visible {
     color: var(--mc-ink);
     font-size: 0.78rem;
     font-weight: 700;
+    overflow: hidden;
+}
+
+.mc-card__avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
 }
 
 .mc-card__patient strong {
@@ -1386,7 +1401,65 @@ textarea:focus-visible {
 
 
 /* =========================================================
-   11. RESPONSIVE — TABLET
+   11. BACK TO TOP
+========================================================= */
+
+.back-to-top {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 90;
+
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+
+    transition:
+        opacity 0.3s ease,
+        visibility 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.back-to-top:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.back-to-top:active {
+    transform: translateY(-1px);
+}
+
+.back-to-top i {
+    text-shadow:
+        -1px -1px 0 rgba(0, 0, 0, 0.75),
+        1px -1px 0 rgba(0, 0, 0, 0.75),
+        -1px 1px 0 rgba(0, 0, 0, 0.75),
+        1px 1px 0 rgba(0, 0, 0, 0.75);
+}
+
+/* =========================================================
+   12. RESPONSIVE — TABLET
 ========================================================= */
 
 @media (max-width: 1080px) {
@@ -1441,7 +1514,7 @@ textarea:focus-visible {
 
 
 /* =========================================================
-   12. RESPONSIVE — MOBILE
+   13. RESPONSIVE — MOBILE
 ========================================================= */
 
 @media (max-width: 720px) {
@@ -1535,7 +1608,7 @@ textarea:focus-visible {
 
 
 /* =========================================================
-   13. ENTRANCE & SCROLL-TRIGGERED ANIMATIONS
+   14. ENTRANCE & SCROLL-TRIGGERED ANIMATIONS
 
    Notes:
    - hero-rise / marquee-scroll / mc-scroll keyframes already
