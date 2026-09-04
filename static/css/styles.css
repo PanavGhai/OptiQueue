@@ -289,11 +289,6 @@ textarea:focus-visible {
     min-height: 110vh;
     min-height: 110svh;
 
-
-    background:
-        linear-gradient(115deg, rgba(4, 13, 28, 0.92) 10%, rgba(10, 32, 63, 0.72) 55%, rgba(20, 55, 98, 0.5) 100%),
-        url("images/hero-bg.png") center / cover no-repeat;
-
     color: var(--white);
 
     display: flex;
@@ -303,6 +298,7 @@ textarea:focus-visible {
 }
 
 .hero__nav {
+    position: relative;
     width: 100%;
     margin: 0 auto;
 
@@ -1432,6 +1428,12 @@ textarea:focus-visible {
         padding: 1.25rem 1.25rem;
     }
 
+    .hero__login {
+        position: absolute;
+        top: 1.25rem;
+        right: 1.25rem;
+    }
+
     .hero__nav-links {
         display: none;
     }
@@ -1440,11 +1442,12 @@ textarea:focus-visible {
         padding: 1.5rem 1.25rem 3rem;
     }
 
+    .hero__intro {
+        bottom: 2rem;
+    }
+
     .hero__side {
-        right: 1.25rem;
-        bottom: 7.5rem;
-        width: calc(100% - 2.5rem);
-        grid-template-columns: 1fr 1fr;
+        display: none;
     }
 
     .services,
